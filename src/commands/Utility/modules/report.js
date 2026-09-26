@@ -26,7 +26,7 @@ export default {
         }
 
         const ownerMention = interaction.guild.ownerId
-            ? `<@${interaction.guild.ownerId}> New report!`
+            ? `<@&1553425650860298300> New report!`
             : 'New report!';
 
         await logEvent({
